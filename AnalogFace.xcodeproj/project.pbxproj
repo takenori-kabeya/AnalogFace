@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D8233162A2F3BFA0001C7A4 /* AnalogFace Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8D8233152A2F3BFA0001C7A4 /* AnalogFace Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8D82331B2A2F3BFA0001C7A4 /* AnalogFaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82331A2A2F3BFA0001C7A4 /* AnalogFaceApp.swift */; };
+		8D82331D2A2F3BFA0001C7A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D82331C2A2F3BFA0001C7A4 /* ContentView.swift */; };
+		8D82331F2A2F3BFC0001C7A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D82331E2A2F3BFC0001C7A4 /* Assets.xcassets */; };
+		8D8233222A2F3BFC0001C7A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8233212A2F3BFC0001C7A4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D8233172A2F3BFA0001C7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8233092A2F3BFA0001C7A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8233142A2F3BFA0001C7A4;
+			remoteInfo = "AnalogFace Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D8233282A2F3BFC0001C7A4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8D8233162A2F3BFA0001C7A4 /* AnalogFace Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D82330F2A2F3BFA0001C7A4 /* AnalogFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8233152A2F3BFA0001C7A4 /* AnalogFace Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnalogFace Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D82331A2A2F3BFA0001C7A4 /* AnalogFaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogFaceApp.swift; sourceTree = "<group>"; };
+		8D82331C2A2F3BFA0001C7A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D82331E2A2F3BFC0001C7A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D8233212A2F3BFC0001C7A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DBBC1442A2F5E19002CB488 /* AnalogFace Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AnalogFace Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8233122A2F3BFA0001C7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D8233082A2F3BFA0001C7A4 = {
+			isa = PBXGroup;
+			children = (
+				8D8233192A2F3BFA0001C7A4 /* AnalogFace Watch App */,
+				8D8233102A2F3BFA0001C7A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8233102A2F3BFA0001C7A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D82330F2A2F3BFA0001C7A4 /* AnalogFace.app */,
+				8D8233152A2F3BFA0001C7A4 /* AnalogFace Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8233192A2F3BFA0001C7A4 /* AnalogFace Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8DBBC1442A2F5E19002CB488 /* AnalogFace Watch App.entitlements */,
+				8D82331A2A2F3BFA0001C7A4 /* AnalogFaceApp.swift */,
+				8D82331C2A2F3BFA0001C7A4 /* ContentView.swift */,
+				8D82331E2A2F3BFC0001C7A4 /* Assets.xcassets */,
+				8D8233202A2F3BFC0001C7A4 /* Preview Content */,
+			);
+			path = "AnalogFace Watch App";
+			sourceTree = "<group>";
+		};
+		8D8233202A2F3BFC0001C7A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D8233212A2F3BFC0001C7A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D82330E2A2F3BFA0001C7A4 /* AnalogFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8233292A2F3BFC0001C7A4 /* Build configuration list for PBXNativeTarget "AnalogFace" */;
+			buildPhases = (
+				8D82330D2A2F3BFA0001C7A4 /* Resources */,
+				8D8233282A2F3BFC0001C7A4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8233182A2F3BFA0001C7A4 /* PBXTargetDependency */,
+			);
+			name = AnalogFace;
+			productName = AnalogFace;
+			productReference = 8D82330F2A2F3BFA0001C7A4 /* AnalogFace.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8D8233142A2F3BFA0001C7A4 /* AnalogFace Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8233252A2F3BFC0001C7A4 /* Build configuration list for PBXNativeTarget "AnalogFace Watch App" */;
+			buildPhases = (
+				8D8233112A2F3BFA0001C7A4 /* Sources */,
+				8D8233122A2F3BFA0001C7A4 /* Frameworks */,
+				8D8233132A2F3BFA0001C7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnalogFace Watch App";
+			productName = "AnalogFace Watch App";
+			productReference = 8D8233152A2F3BFA0001C7A4 /* AnalogFace Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8233092A2F3BFA0001C7A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D82330E2A2F3BFA0001C7A4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D8233142A2F3BFA0001C7A4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D82330C2A2F3BFA0001C7A4 /* Build configuration list for PBXProject "AnalogFace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D8233082A2F3BFA0001C7A4;
+			productRefGroup = 8D8233102A2F3BFA0001C7A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D82330E2A2F3BFA0001C7A4 /* AnalogFace */,
+				8D8233142A2F3BFA0001C7A4 /* AnalogFace Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D82330D2A2F3BFA0001C7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8233132A2F3BFA0001C7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8233222A2F3BFC0001C7A4 /* Preview Assets.xcassets in Resources */,
+				8D82331F2A2F3BFC0001C7A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8233112A2F3BFA0001C7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D82331D2A2F3BFA0001C7A4 /* ContentView.swift in Sources */,
+				8D82331B2A2F3BFA0001C7A4 /* AnalogFaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D8233182A2F3BFA0001C7A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8233142A2F3BFA0001C7A4 /* AnalogFace Watch App */;
+			targetProxy = 8D8233172A2F3BFA0001C7A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D8233232A2F3BFC0001C7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D8233242A2F3BFC0001C7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8D8233262A2F3BFC0001C7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AnalogFace Watch App/AnalogFace Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogFace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M2V28MT26E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnalogFace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cabinetwork.AnalogFace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		8D8233272A2F3BFC0001C7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AnalogFace Watch App/AnalogFace Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogFace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M2V28MT26E;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AnalogFace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cabinetwork.AnalogFace.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		8D82332A2A2F3BFC0001C7A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2V28MT26E;
+				INFOPLIST_KEY_CFBundleDisplayName = AnalogFace;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cabinetwork.AnalogFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D82332B2A2F3BFC0001C7A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2V28MT26E;
+				INFOPLIST_KEY_CFBundleDisplayName = AnalogFace;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.cabinetwork.AnalogFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D82330C2A2F3BFA0001C7A4 /* Build configuration list for PBXProject "AnalogFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8233232A2F3BFC0001C7A4 /* Debug */,
+				8D8233242A2F3BFC0001C7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8233252A2F3BFC0001C7A4 /* Build configuration list for PBXNativeTarget "AnalogFace Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8233262A2F3BFC0001C7A4 /* Debug */,
+				8D8233272A2F3BFC0001C7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8233292A2F3BFC0001C7A4 /* Build configuration list for PBXNativeTarget "AnalogFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D82332A2A2F3BFC0001C7A4 /* Debug */,
+				8D82332B2A2F3BFC0001C7A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8233092A2F3BFA0001C7A4 /* Project object */;
+}
